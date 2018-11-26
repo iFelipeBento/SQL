@@ -6,14 +6,34 @@ Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a lin
 
 ## Podemos:
 
-1. Criar uma Base de Dados
+###1. Criar uma Base de Dados:
 
-2. Inserir Tabelas e Colunas
+``` CREATE DATABASE [NOME DO BANCO];
+```
+Exemplo: 
 
-3. Realizar Consultas
+``` CREATE DATABASE db_agencia; ```
+``` USE db_agencia;```
+O "USE" é para selecionar a base de dados recém criada para que, futuras queries adicionadas não cheguem a atingir outra base de dados.
 
-4. Apagar os Dados de uma Tabela ou Coluna
+###2. Inserir Tabelas e Colunas:
 
-5. Deletar uma Tabela.
+``` CREATE TABLE tb_cliente (
+        cpf varchar (11) not null primary key,
+        nome varchar (50) not null,
+        endereco varchar (40) not null,
+        bairro varchar (20) not null,
+        complemento (50) not null);
+```
 
-6. Deletar um Banco de Dados.
+``` CREATE TABLE tb_vendedor (
+
+```
+
+###3. Realizar Consultas
+
+###4. Apagar os Dados de uma Tabela ou Coluna
+
+###5. Deletar uma Tabela.
+
+###6. Deletar um Banco de Dados.
