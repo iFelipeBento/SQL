@@ -8,12 +8,13 @@ Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a lin
 
 ###1. Criar uma Base de Dados:
 
-``` CREATE DATABASE [NOME DO BANCO];
-```
+CREATE DATABASE [NOME DO BANCO];
+
 Exemplo: 
 
-``` CREATE DATABASE db_agencia; ```
-``` USE db_agencia;```
+CREATE DATABASE db_agencia;
+USE db_agencia;
+
 O "USE" é para selecionar a base de dados recém criada para que, futuras queries adicionadas não cheguem a atingir outra base de dados.
 
 ###2. Inserir Tabelas e Colunas:
@@ -26,9 +27,7 @@ O "USE" é para selecionar a base de dados recém criada para que, futuras queri
         complemento (50) not null);
 ```
 
-``` CREATE TABLE tb_vendedor (
-
-```
+``` CREATE TABLE tb_vendedor ( ```
 
 ###3. Realizar Consultas
 
